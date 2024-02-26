@@ -1,5 +1,7 @@
 npm install
 
-run index.js to scrap cpubenchmark
+try ```npm run scrap cpu```
 
-sometimes the script fails. try again
+flags
+*cpu
+*gpu
