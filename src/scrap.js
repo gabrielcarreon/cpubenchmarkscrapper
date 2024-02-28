@@ -19,7 +19,7 @@ export const scrap = ({ flag }) => (async() => {
         tries++
         if(tries < 3) scrap({ flag: flag})
       })
-      console.log('Kapag naaalala ko ang mga araw na magkasama tayong dalawaa')
+      console.log('scrapping done')
       await page.close()
       process.exit()
     }
